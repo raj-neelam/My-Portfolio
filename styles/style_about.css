@@ -1,0 +1,23 @@
+.about{
+    width: 100%;
+    border: 1px dashed yellow;
+}
+.about > p{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.dash{
+    background-color: #ffc86b;
+    height: 0.7vh;
+    width: 10vw;
+    margin: 8px;
+}
+.about_design{
+    display: flex;
+    justify-content: space-between;
+}
+.about_design > p {
+    color: white;
+    font-size: 20px;
+}

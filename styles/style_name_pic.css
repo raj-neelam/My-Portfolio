@@ -16,7 +16,7 @@ main{
     font-size: 50px;
     font-weight: bolder;
     color: white;
-    padding-left: 40px;
+    padding-left: 8vw;
 }
 .name > p > span{
     color: #ffc86b;
@@ -34,7 +34,10 @@ main{
     height: 5vh;
     font-size: 1.1vw;
     color: #ffc86b;
-
+}
+.name > button:hover{
+    background-color: #ffc86b;
+    color: #34353a;
 }
 .floating-div {
     position: absolute;
