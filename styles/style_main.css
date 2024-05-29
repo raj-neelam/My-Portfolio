@@ -1,0 +1,74 @@
+main{
+    /* border: 1px dashed white; */
+    margin: 0vw 10vw;
+    height: 900px;
+}
+.name_pic{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.pic > img{
+    width: 40vw;
+}
+.name{
+    font-size: 50px;
+    font-weight: bolder;
+    color: white;
+    padding-left: 40px;
+}
+.name > p > span{
+    color: #ffc86b;
+    font-size: 60px;
+}
+.profetion{
+    font-size: 40px;
+}
+.name > button {
+    background-color: #34353a;
+    outline: none;
+    border: 2px solid #ffc86b;
+    border-radius: 10px;
+    width: 7vw;
+    height: 5vh;
+    font-size: 1.1vw;
+    color: #ffc86b;
+
+}
+.floating-div {
+    position: absolute;
+    bottom: 96px;
+    right: 38px;
+    z-index: 1;
+}
+.floating-div > ul {
+    list-style-type: none;
+    width: 100%;
+    height: 100%;
+}
+.floating-div > ul > a{
+    width: 100%;
+    height: 100%;
+}
+.floating-div > ul > li{
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+}
+.floating-div img{
+    width: 20px;
+    filter: invert(100%);
+    margin: 5px;
+}
+.bar_dot{
+    background-color: #ffc86b;
+    width: 5px;
+    height: 10px;
+}
+.bar{
+    background-color: #ffc86b;
+    width: 5px;
+    height: 60px;
+}
+
