@@ -1,0 +1,13 @@
+main{
+    border: 1px dashed white;
+    margin: 0vw 10vw;
+    height: 900px;
+}
+.name_pic{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.pic > img{
+    width: 40vw;
+}
